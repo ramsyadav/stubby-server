@@ -1,0 +1,1 @@
+stubby server for GET,POST,DELETE and PUT methods.
