@@ -1,0 +1,17 @@
+## YAML Template.
+-  request:
+      url: /api/users/nolongerhere
+      method: GET
+   response:
+      status: 410
+      headers:
+         content-type: application/json
+      body: '{"error":"User nolongerhere no longer exists."}'
+ 
+-  request:
+      url: /api/tweets/
+      method: POST
+   response:
+      status: 201
+      headers:
+         location: /api/tweets/4abdf897adcee820cd

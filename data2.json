@@ -1,0 +1,55 @@
+[{
+        "request": {
+            "url": "/api/getUserInfo",
+            "method": "GET"
+        },
+        "response": {
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "status": 200,
+            "latency": 2000,
+            "body": {
+                "name": "ram singh yadav",
+                "email": "sram@singh.com",
+                "company": "Accion"
+            }
+        }
+    },
+    {
+        "request": {
+            "url": "/api/userUpdate",
+            "method": "PUT"
+        },
+        "response": {
+            "headers": {
+                "content-type": "text/plain"
+            },
+            "status": 200,
+            "latency": 2000,
+            "body": "User information updated"
+        }
+    }, {
+        "request": {
+            "url": "/api/deleteUserInfo",
+            "method": "DELETE",
+            "post": null
+        },
+        "response": {
+            "headers": {
+                "content-type": "text/plain"
+            },
+            "status": 200,
+            "body": "User Deleted Successfully"
+        }
+    },
+    {
+        "request": {
+            "url": "/api/submitUserInfo",
+            "method": "POST"
+        },
+        "response": {
+            "status": 200,
+            "body": "User information posted successfully"
+        }
+    }]
